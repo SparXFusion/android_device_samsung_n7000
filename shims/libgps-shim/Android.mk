@@ -20,7 +20,8 @@ LOCAL_SRC_FILES := gps.c
 
 LOCAL_SHARED_LIBRARIES := \
 	libcutils \
-	liblog
+	liblog \
+	libc
 
 LOCAL_MODULE := gps.exynos4
 LOCAL_MODULE_RELATIVE_PATH := hw
